@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Contribution
 
 * Fork the repo
-* Clone forked repo on your local machine `git clone https://github.com/USER/gdg-container`.
+* Clone forked repo on your local machine `git clone https://github.com/<YOUR_USERNAME>/gdg-container`.
 * `cd gdg-container` to go into the project root.
 * `git remote add upstream https://github.com/amine-louni/gdg-container` to add original repo as an upstream.
 * ``yarn`` or `npm i` to install the website's npm dependencies.
