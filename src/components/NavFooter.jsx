@@ -38,31 +38,41 @@ function NavFooter(props) {
         <Container>
           <Box display="flex" alignItems="center">
             <Typography variant="h6">Follow us : </Typography>
+            <Link href="https://www.meetup.com/GDG-Chlef/" target="_blank">
             <img
               className={classes.img}
               alt="meetup"
               src="/assets/social-meida-icons/png/002-meetup.png"
             />
+            </Link>
+            <Link href="https://twitter.com/GDG_Chlef" target="_blank">
             <img
               className={classes.img}
               alt="meetup"
               src="/assets/social-meida-icons/png/003-twitter.png"
             />
+            </Link>
+            <Link href="https://www.linkedin.com/company/gdg-chlef" target="_blank">
             <img
               className={classes.img}
               alt="meetup"
               src="/assets/social-meida-icons/png/004-linkedin.png"
             />
+            </Link>
+            <Link href="https://www.facebook.com/pg/GDG.Chlef/" target="_blank">
             <img
               className={classes.img}
               alt="meetup"
               src="/assets/social-meida-icons/png/005-facebook.png"
             />
+            </Link>
+            <Link href="https://www.instagram.com/gdgchlef/" target="_blank">
             <img
               className={classes.img}
               alt="meetup"
               src="/assets/social-meida-icons/png/006-instagram.png"
             />
+            </Link>
           </Box>
         </Container>
       </Box>
