@@ -69,7 +69,7 @@ function NavFooter(props) {
       <Box className={classes.content} py={8}>
         <Container>
           <Grid container>
-            <Grid item xs={12} md="3">
+            <Grid item xs={12} md={3}>
               <Typography
                 className={classes.Typography}
                 variant="h5"
@@ -116,7 +116,7 @@ function NavFooter(props) {
                 </Link>
               </Typography>
             </Grid>
-            <Grid item xs={12} md="3">
+            <Grid item xs={12} md={3}>
               <Typography
                 className={classes.Typography}
                 variant="h5"
@@ -142,7 +142,7 @@ function NavFooter(props) {
                 </Link>
               </Typography>
             </Grid>
-            <Grid item xs={12} md="3">
+            <Grid item xs={12} md={3}>
               <Typography
                 className={classes.Typography}
                 variant="h5"

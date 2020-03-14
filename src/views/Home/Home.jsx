@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Grid, Container, Button, Hidden } from "@material-ui/core";
+import { Grid, Container, Button } from "@material-ui/core";
 import Welcome from "../../components/Welcome";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
@@ -26,7 +26,7 @@ class HomePage extends Component {
             <Grid container spacing={6}>
               <Grid item xs={12} md={6}>
                 <Box mb={4}>
-                  <Typography variant="h4" color="" component="h2">
+                  <Typography variant="h4" component="h2">
                     What we do ?
                   </Typography>
                 </Box>
@@ -39,7 +39,6 @@ class HomePage extends Component {
                 <Box my={3}>
                   <Button
                     variant="contained"
-                    color="primary"
                     onClick={e => {
                       window.location = "/about";
                     }}
@@ -47,8 +46,6 @@ class HomePage extends Component {
                     become a sponsor
                   </Button>
                   <Button
-                    variant="link"
-                    color="primary"
                     onClick={e => {
                       window.location = "/about";
                     }}
@@ -57,15 +54,15 @@ class HomePage extends Component {
                   </Button>
                 </Box>
                 <Box component="div" mt={4}>
-                  <PersonIcon color="text." />
+                  <PersonIcon />
                   <Box component="span" ml={3}>
-                    <PublicIcon color="text." />
+                    <PublicIcon />
                   </Box>
                   <Box component="span" ml={3}>
-                    <FavoriteIcon color="text." />
+                    <FavoriteIcon />
                   </Box>
                   <Box component="span" ml={3}>
-                    <FormatQuoteIcon color="text." />
+                    <FormatQuoteIcon />
                   </Box>
                 </Box>
               </Grid>

@@ -73,7 +73,7 @@ const Welcome = () => {
             d="M14-12.6,12.6-14,7-8.4,1.4-14,0-12.6,5.6-7,0-1.4,1.4,0,7-5.6,12.6,0,14-1.4,8.4-7Z"
             transform="translate(544 196)"
             fill="#4285f4"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Path_2119"
@@ -81,7 +81,7 @@ const Welcome = () => {
             d="M7.5-13.25,6.75-14l-3,3-3-3L0-13.25l3,3-3,3,.75.75,3-3,3,3,.75-.75-3-3Z"
             transform="translate(505 337.5)"
             fill="#f4b400"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Path_2120"
@@ -89,7 +89,7 @@ const Welcome = () => {
             d="M7.5-13.25,6.75-14l-3,3-3-3L0-13.25l3,3-3,3,.75.75,3-3,3,3,.75-.75-3-3Z"
             transform="translate(747 285.5)"
             fill="#f4b400"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Path_2122"
@@ -97,7 +97,7 @@ const Welcome = () => {
             d="M7.5-13.25,6.75-14l-3,3-3-3L0-13.25l3,3-3,3,.75.75,3-3,3,3,.75-.75-3-3Z"
             transform="translate(394 428.5)"
             fill="#0f9d85"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Path_2123"
@@ -105,7 +105,7 @@ const Welcome = () => {
             d="M7.5-13.25,6.75-14l-3,3-3-3L0-13.25l3,3-3,3,.75.75,3-3,3,3,.75-.75-3-3Z"
             transform="translate(751 397.5)"
             fill="#db4437"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Path_2121"
@@ -113,7 +113,7 @@ const Welcome = () => {
             d="M7.5-13.25,6.75-14l-3,3-3-3L0-13.25l3,3-3,3,.75.75,3-3,3,3,.75-.75-3-3Z"
             transform="translate(394 256.5)"
             fill="#4285f4"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Icon_Arrow_Drop_Down"
@@ -180,7 +180,7 @@ const Welcome = () => {
             transform="translate(638 455)"
             fill="none"
             stroke="#4285f4"
-            stroke-width="1"
+            strokeWidth="1"
           >
             <circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
             <circle cx="7.5" cy="7.5" r="7" fill="none" />
@@ -191,7 +191,7 @@ const Welcome = () => {
             transform="translate(561 288)"
             fill="none"
             stroke="#4285f4"
-            stroke-width="1"
+            strokeWidth="1"
           >
             <circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
             <circle cx="7.5" cy="7.5" r="7" fill="none" />

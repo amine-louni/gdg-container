@@ -72,7 +72,7 @@ export default function SimpleCard() {
         </List>
       </CardContent>
       <CardActions>
-        <Button fullWidth={true} variant="containedPrimary" size="medium">
+        <Button fullWidth={true} size="medium">
           Read more
         </Button>
       </CardActions>
